@@ -9,6 +9,9 @@
 
 > the victim can re-verify their whatsapp number at anytime 
 
+<br>
+<kbd>7 days of hardwork</kbd>
+<kbd>1 star ?</kbd>
 </div>
 
 # Installation
