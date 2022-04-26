@@ -19,6 +19,10 @@ cd wa-phish
 bash install.sh
 ```
 
+# suggestion
+
+*you can suggest new features in discussion page*
+
 # WARNING ⚠️
 
 <kbd>
