@@ -19,6 +19,10 @@ cd wa-phish
 bash install.sh
 ```
 
+# Errors & solutions
+
+
+
 # suggestion
 
 *you can suggest new features in [discussion](https://github.com/im-shamil/wa-phish/discussions) page*
