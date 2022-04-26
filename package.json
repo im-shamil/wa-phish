@@ -1,0 +1,31 @@
+{
+  "name": "whatsapp-phish",
+  "version": "1.0.0",
+  "description": "a tool for phishing whatsapp accounts",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/im-shamil/whatsapp-phish.git"
+  },
+  "author": "shamil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/im-shamil/whatsapp-phish/issues"
+  },
+  "homepage": "https://github.com/im-shamil/whatsapp-phish#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "chalk": "^2.4.2",
+    "download": "^8.0.0",
+    "ejs": "^3.1.7",
+    "express": "^4.18.0",
+    "http": "^0.0.1-security",
+    "open": "^8.4.0",
+    "socket.io": "^4.5.0",
+    "spinnies": "^0.5.1"
+  }
+}
