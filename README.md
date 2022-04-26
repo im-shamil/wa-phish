@@ -9,7 +9,7 @@
 
 > the victim can re-verify their whatsapp number at anytime 
 
-> You can change your port using <kbd>exports PORT={port}</kbd>
+> You can change your port using <kbd>export PORT={port}</kbd>
 
 <br>
 <kbd>7 days of hardwork</kbd>
