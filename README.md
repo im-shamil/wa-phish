@@ -5,6 +5,7 @@
 
 *whatsapp phishing tool made with nodejs*
 
+
 </div>
 
 # Installation
@@ -20,6 +21,12 @@ bash install.sh
 
 # WARNING ⚠️
 
-*
-this tool was made for 
-*
+<kbd>
+
+_this was made for educational purposes_
+
+_and im not responsible for any illegal activities done with this tool_
+
+_please use this tool for fair use_
+
+</kbd>
