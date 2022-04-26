@@ -21,7 +21,7 @@ bash install.sh
 
 # suggestion
 
-*you can suggest new features in discussion page*
+*you can suggest new features in [discussion](https://github.com/im-shamil/wa-phish/discussions) page*
 
 # WARNING ⚠️
 
