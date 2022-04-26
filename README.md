@@ -9,6 +9,8 @@
 
 > the victim can re-verify their whatsapp number at anytime 
 
+> You can change your port using <kbd>exports PORT={port}</kbd>
+
 <br>
 <kbd>7 days of hardwork</kbd>
 <kbd>1 star ?</kbd>
@@ -81,6 +83,16 @@ bash install.sh
 > **SOLUTION**
 
 > __TURN ON YOUR MOBILE HOTSPOT AND TRY AGAIN__
+
+<br>
+
+## ERROR 3
+
+<img src=".assets/error-port.png">
+
+> **SOLUTION**
+
+> __CHANGE THE PORT__
 
 </div>
 
