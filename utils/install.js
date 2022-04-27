@@ -16,7 +16,6 @@ function download (url) {
                 spin.succeed("install", {
                         text: "successfully installed cloudflared"
                 })
-                fs.chmod(`${__dirname}/cloudflared`, 755, () => {})
                 process.exit()
         })
 }
