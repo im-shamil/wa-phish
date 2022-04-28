@@ -9,7 +9,7 @@
 
 > the victim can re-verify their whatsapp number at anytime 
 
-> You can change your port using <kbd>export PORT={port}</kbd>
+> and the tool may not work for aarch64 users, Check your arch with <kbd>uname -m</kbd>before installing 
 
 <br>
 <kbd>7 days of hardwork</kbd>
@@ -92,7 +92,7 @@ bash install.sh
 
 > **SOLUTION**
 
-> __CHANGE THE PORT__
+> __THAT'S THE PROBLEM WHEN YOU STOP THE TOOL UNEXPECTEDLY. RESTART YOUR DEVICE__
 
 </div>
 
